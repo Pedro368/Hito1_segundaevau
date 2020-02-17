@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "name": "Pedro",
+    "avatar": "svg-9",
+    "bio": "Pedro es un profesional del marketing de contenidos en HubSpot, una plataforma de marketing y ventas entrantes que ayuda a las empresas a atraer visitantes, convertir clientes potenciales y cerrar clientes. Anteriormente, Rodney trabajó como gerente de marketing para una empresa de software tecnológico. Se graduó con honores de la Universidad de Columbia con una doble licenciatura en Administración de Empresas y Redacción Creativa",
+    "birthDate": "1980-02-04T00:00:00",
+    "notes": [
+      {
+        "id": 1,
+        "title": "Pay Medical Premium",
+        "date": "2018-12-10T16:47:05.5653595Z"
+      },
+      {
+        "id": 2,
+        "title": "Book a table for date",
+        "date": "2018-12-22T16:47:05.5653625Z"
+      },
+      {
+        "id": 3,
+        "title": "Meeting Girlfriend",
+        "date": "2019-01-01T16:47:05.5653639Z"
+      },
+      {
+        "id": 4,
+        "title": "Movie time",
+        "date": "2019-01-11T16:47:05.5653653Z"
+      },
+      {
+        "id": 5,
+        "title": "Ski time",
+        "date": "2019-01-21T16:47:05.5653667Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Jorge",
+    "avatar": "svg-6",
+    "bio": "Capo Plaza siempre ",
+    "birthDate": "1987-05-20T00:00:00",
+    "notes": [{
+      "id": 1,
+      "title": "Going for vacation",
+      "date": "2018-12-10T16:47:05.5653595Z"
+    },
+    {
+      "id": 2,
+      "title": "Cricket Practice",
+      "date": "2018-12-22T16:47:05.5653625Z"
+    },
+    {
+      "id": 3,
+      "title": "Lunch Time",
+      "date": "2019-01-01T16:47:05.5653639Z"
+    }]
+  },
+  {
+    "id": 3,
+    "name": "Paquito el chocolatero",
+    "avatar": "svg-5",
+    "bio": "Arriba todo le mundo y a bailar con paquito el chocolateroEh, eh, eh... Las calles de todo el pueblo Se visten por todas partesCon el aire de la fiesta Al golpe de los timbales Al paso de las comparsas Gozando sus estartares Los moros y los cristianos Nos ponemos en posicion",
+    "birthDate": "1975-10-11T00:00:00",
+    "notes": [{
+      "id": 1,
+      "title": "Music Classes",
+      "date": "2018-12-10T16:47:05.5653595Z"
+    },
+    {
+      "id": 2,
+      "title": "Dance Classes",
+      "date": "2018-12-22T16:47:05.5653625Z"
+    },
+    {
+      "id": 3,
+      "title": "Swimming Time",
+      "date": "2019-01-01T16:47:05.5653639Z"
+    }]
+  },
+  {
+    "id": 4,
+    "name": "Coronao",
+    "avatar": "svg-2",
+    "bio": "Ando ruleta en una camioneta",
+    "birthDate": "1983-03-16T00:00:00",
+    "notes": []
+  }
+]

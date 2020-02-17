@@ -1,0 +1,16 @@
+<mat-toolbar color="primary">
+  <button class="sidenav-toggle"  mat-button (click)="toggleSidenav.emit()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Gestion de Empleados</span>
+  <span class="example-spacer"></span>
+  <button mat-button [matMenuTriggerFor]="menu">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item (click)="openEmployeeDialog()">Crear Nuevo Empleado</button>
+  <button mat-menu-item (click)="toggleDir.emit()" >Cambiar sentido de la pagina</button>
+  </mat-menu>
+
+  
+</mat-toolbar>

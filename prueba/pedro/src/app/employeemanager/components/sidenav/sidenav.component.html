@@ -1,0 +1,28 @@
+<mat-sidenav-container class="app-sidenav-container" [dir]="dir">
+  <mat-sidenav
+    #sidenav
+    class="app-sidenav mat-elevation-z2"
+    [opened]="!isScreenSmall()"
+    [mode]="isScreenSmall() ? 'over' : 'side'"
+  >
+    <mat-toolbar color="primary">Menus</mat-toolbar>
+     <mat-nav-list>
+    <a mat-button routerLink="home">Home</a>
+    <a mat-button routerLink="crud">Crud</a>
+    <a mat-button routerLink="projects">Proyectos</a>
+    <a mat-button routerLink="aboutus">Sobre nosotros</a>
+    </mat-nav-list>
+    <div class="copyright-container">
+      <a><span>Copyright &copy; Pedro Heras Sanchez </span></a>
+      <a href="https://www.angularsoftware.es/politica-privacidad/" target="_blank"><span>Cookies </span></a>
+      <a href="">Github Proyecto</a>
+      <div fxFlex></div>
+      <a>Version angular: 8.3.25</a>
+      </div>
+  </mat-sidenav>
+
+  <div class="app-sidenav-content">
+    <app-toolbar (toggleSidenav)="sidenav.toggle()" (toggleDir)="toggleDir()"></app-toolbar>
+    <div class="wrapper"><router-outlet></router-outlet></div>
+  </div>
+</mat-sidenav-container>
